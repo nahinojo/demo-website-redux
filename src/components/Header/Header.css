@@ -1,0 +1,19 @@
+#header-container {
+  background-color: var(--uci-blue);
+}
+
+#uci, #department, #program {
+  color: #ffffff;
+}
+
+#uci, #department {
+  font-family: "Montserrat";
+}
+
+#uci {
+  font-weight: 800;
+}
+
+#program {
+  font-family: RobotoSlab;
+}
