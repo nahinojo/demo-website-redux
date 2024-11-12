@@ -9,6 +9,8 @@
   background-color: white;
   --uci-blue: #255799;
   --uci-gold: #fecc07;
+  --dark-blue: #1B3D6D;
+  --light-gray: #C6BEB5;
   --smoke: #333333;
 
   font-synthesis: none;
@@ -27,6 +29,13 @@
 
 @font-face {
   font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
   src: url(../assets/fonts/Montserrat-Regular.ttf);
   font-weight: normal;
   font-style: normal;
@@ -37,6 +46,14 @@
   src:
     url("../assets/fonts/RobotoSlab-Regular.ttf");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src:
+    url("../assets/fonts/RobotoSlab-SemiBold.ttf");
+  font-weight: 600;
   font-style: normal;
 }
 
